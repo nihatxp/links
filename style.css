@@ -718,7 +718,7 @@ body {
 #dahaFazla1,#dahaFazla2,#dahaFazla3,#dahaFazla4,#dahaFazla5,#dahaFazla6,#dahaFazla7,
 #dahaFazla8,#dahaFazla9,#dahaFazla10,#dahaFazla11,#dahaFazla12,#dahaFazla13,#dahaFazla14,#dahaFazla15,#dahaFazla16,#dahaFazla17,#dahaFazla18
 ,#dahaFazla19,#dahaFazla20,#dahaFazla21,#dahaFazla22,#dahaFazla23,#dahaFazla24,#dahaFazla25{
-    display: none;
+    display: block;
 }
 
 
