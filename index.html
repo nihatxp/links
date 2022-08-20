@@ -146,13 +146,6 @@
       <a class="link" id="dahaFazla11" href="https://www.pinterest.com/nihatxp/" target="_blank">
         <i class="fab fa-pinterest">&nbsp;</i>Pinterest
       </a>
-      <a class="link" id="dahaFazla12" href="https://dribbble.com/nihatxp" target="_blank">
-        <i class="fab fa-dribbble">&nbsp;</i>Dribble
-      </a>
-      <a class="link" id="dahaFazla14" href="https://www.devinart.com/nihatxp" target="_blank">
-        <i class="fab fa-deviantart">&nbsp;</i>Devinart
-      </a>
-
       <a class="link" onclick=dahafazla(); id="btn" target="_blank">
         ▼ Daha Fazla ▼
       </a>      
@@ -164,7 +157,7 @@
       let durum = 0;
       function dahafazla(){
         if(durum==0){
-          for(let i=1;i<=14;i++){ 
+          for(let i=1;i<=11;i++){ 
           document.getElementById("dahaFazla"+i.toString()).style.display = "block";
           btn.innerText="▲ Daha Az ▲"
         }
@@ -172,7 +165,7 @@
         }
         else if(durum==1){
           
-          for(let i=1;i<=14;i++){ 
+          for(let i=1;i<=11;i++){ 
           document.getElementById("dahaFazla"+i.toString()).style.display = "none";
           btn.innerText="▼ Daha Fazla ▼"
         }
