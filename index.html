@@ -116,8 +116,14 @@
       <a class="link" id="dahaFazla1" href="https://www.tiktok.com/@xpnihat" target="_blank">
         <i class="fab fa-tiktok">&nbsp;</i>TikTok
       </a>
+      <a class="link" id="dahaFazla2" href="https://www.behance.net/nihat" target="_blank">
+        <i class="fab fa-dribbble">&nbsp;</i>Behance
+      </a>
       <a class="link" id="dahaFazla3" href="https://www.twitch.tv/nihatxp" target="_blank">
         <i class="fab fa-twitch">&nbsp;</i>Twitch
+      </a>
+      <a class="link" id="dahaFazla4" href="https://gitlab.com/nihatxp" target="_blank">
+        <i class="fab fa-gitlab">&nbsp;</i>Gitlab
       </a>
       <a class="link" id="dahaFazla5" href="https://open.spotify.com/user/31gqpvfz4obndgimtlhlrcleezdq" target="_blank">
         <i class="fab fa-spotify">&nbsp;</i>Spotify
@@ -146,12 +152,7 @@
       <a class="link" id="dahaFazla14" href="https://www.devinart.com/nihatxp" target="_blank">
         <i class="fab fa-deviantart">&nbsp;</i>Devinart
       </a>
-      <a class="link" id="dahaFazla15" href="https://gitlab.com/nihatxp" target="_blank">
-        <i class="fab fa-gitlab">&nbsp;</i>Gitlab
-      </a>
-      <a class="link" id="dahaFazla17" href="https://www.behance.net/nihat" target="_blank">
-        <i class="fab fa-dribbble">&nbsp;</i>Behance
-      </a>
+
       <a class="link" onclick=dahafazla(); id="btn" target="_blank">
         ▼ Daha Fazla ▼
       </a>      
@@ -163,7 +164,7 @@
       let durum = 0;
       function dahafazla(){
         if(durum==0){
-          for(let i=1;i<=25;i++){ 
+          for(let i=1;i<=14;i++){ 
           document.getElementById("dahaFazla"+i.toString()).style.display = "block";
           btn.innerText="▲ Daha Az ▲"
         }
@@ -171,7 +172,7 @@
         }
         else if(durum==1){
           
-          for(let i=1;i<=25;i++){ 
+          for(let i=1;i<=14;i++){ 
           document.getElementById("dahaFazla"+i.toString()).style.display = "none";
           btn.innerText="▼ Daha Fazla ▼"
         }
