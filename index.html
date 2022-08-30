@@ -136,10 +136,7 @@
       <a class="link"id="dahaFazla5" href="https://discordapp.com/users/655747377684152321" target="_blank">
         <i class="fa fa-discord">&nbsp;</i>Discord
       </a>
-      <a class="link" id="dahaFazla6" href="https://tryhackme.com/p/nihatxp" target="_blank">
-        <i class="fa fa-hackaday">&nbsp;</i>TryHackMe
-      </a>
-      <a class="link" id="dahaFazla7" href="https://www.pinterest.com/nihatxp/" target="_blank">
+      <a class="link" id="dahaFazla6" href="https://www.pinterest.com/nihatxp/" target="_blank">
         <i class="fab fa-pinterest">&nbsp;</i>Pinterest
       </a>
       <a class="link" onclick=dahafazla(); id="btn" target="_blank">
@@ -153,7 +150,7 @@
       let durum = 0;
       function dahafazla(){
         if(durum==0){
-          for(let i=1;i<=7;i++){ 
+          for(let i=1;i<=6;i++){ 
           document.getElementById("dahaFazla"+i.toString()).style.display = "block";
           btn.innerText="▲ Daha Az ▲"
         }
@@ -161,7 +158,7 @@
         }
         else if(durum==1){
           
-          for(let i=1;i<=7;i++){ 
+          for(let i=1;i<=6;i++){ 
           document.getElementById("dahaFazla"+i.toString()).style.display = "none";
           btn.innerText="▼ Daha Fazla ▼"
         }
