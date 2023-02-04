@@ -720,13 +720,6 @@ body {
   display: none;
 }
 
-body,
-html {
-  -ms-scroll-chaining: none;
-  overscroll-behavior: none;
-  margin: 0;
-  padding: 0;
-}
 @-webkit-keyframes slidetounlock {
   0% {
     background-position: -100px 0;
