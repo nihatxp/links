@@ -9,9 +9,10 @@
   --delay: 0.3s;
 }
 
-h1 {
+html {
   color: var(--accentColor);
-  overflow-x: hidden;
+    min-width: 100vw;
+    overflow-x: hidden;
 }
 
 body {
