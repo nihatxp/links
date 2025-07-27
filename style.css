@@ -9,6 +9,11 @@
   --delay: 0.3s;
 }
 
+h1 {
+  color: var(--accentColor);
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   padding: 0;
